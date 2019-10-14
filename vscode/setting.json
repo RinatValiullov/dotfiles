@@ -1,0 +1,131 @@
+{
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "editor.renderWhitespace": "boundary",
+  "php.suggest.basic": false,
+  "php.executablePath": "C:/php7.2.6/php.exe",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1569591411178,
+  "shellLauncher.shells.windows": [
+    {
+      "shell": "C:\\Program Files\\nodejs\\node.exe",
+      "label": "node"
+    },
+    {
+      "shell": "C:\\Windows\\SysWOW64\\cmd.exe",
+      "label": "cmd"
+    },
+    {
+      "shell": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "label": "powershell"
+    },
+    {
+      "shell": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
+      "label": "powershell6"
+    },
+    {
+      "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "label": "bash"
+    }
+  ],
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
+  "window.menuBarVisibility": "toggle",
+  "html.format.wrapLineLength": 0,
+  "window.zoomLevel": -0.3,
+  "path-intellisense.showHiddenFiles": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.insertFinalNewline": true,
+  "editor.mouseWheelZoom": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "breadcrumbs.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnSave": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": false,
+  "explorer.confirmDragAndDrop": false,
+  "rust.rustup": {
+    "toolchain": "stable-x86_64-pc-windows-msvc",
+    "nightlyToolchain": "nightly-x86_64-pc-windows-msvc"
+  },
+  "rust.mode": "legacy",
+  "explorer.confirmDelete": false,
+  "php-docblocker.author": {
+    "name": "Rinat Valiullov",
+    "email": "4rontender@4ront.life"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "phpcs.autoConfigSearch": true,
+  "editor.tabCompletion": "on",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#4939dd",
+    "titleBar.inactiveBackground": "#3e26a0",
+    "titleBar.activeForeground": "#ffff00",
+    "titleBar.inactiveForeground": "#aacc00",
+    "statusBar.background": "#333456",
+    "statusBarItem.activeBackground": "#444789"
+  },
+  "editor.codeActionsOnSave": {
+    "source.OrganizeImports": true
+  },
+  "editor.renderLineHighlight": "all",
+  "editor.lineHeight": 22,
+  "workbench.editor.highlightModifiedTabs": true,
+  "files.eol": "\n",
+  "editor.renderControlCharacters": false,
+  "leetcode.endpoint": "leetcode",
+  "leetcode.defaultLanguage": "javascript",
+  "explorer.sortOrder": "type",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "workbench.list.horizontalScrolling": true,
+  "workbench.settings.useSplitJSON": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.settings.mode": "advanced",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "prettier.printWidth": 120,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "editor.rulers": [
+    120
+  ],
+  "terminal.integrated.rendererType": "dom",
+  "workbench.colorTheme": "Cobalt2",
+  "editor.tabSize": 2
+}
