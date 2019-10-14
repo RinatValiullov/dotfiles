@@ -1,3 +1,5 @@
 # dotfiles
 
-Some common configs
+Some common configs:
+
+- [vscode](vscode)
