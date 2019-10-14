@@ -1,2 +1,3 @@
 # dotfiles
-Configuration files of my tools
+
+Some common configs
