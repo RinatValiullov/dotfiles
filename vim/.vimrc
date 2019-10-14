@@ -28,7 +28,8 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
 Plugin 'mattn/emmet-vim'
-
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -43,13 +44,6 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-
-
-
-
-
-
-
 
 
 
@@ -83,6 +77,10 @@ set statusline+=\ %P            " Position in buffer: Percentage
 
 " CUSTOM SETTINGS
 
+" enable conceal in vim-markdown plugin
+set conceallevel=2
+
+let g:vim_markdown_fenced_languages = ['javascript=js']
 
 " Turn on syntax highlighting.
 syntax on
@@ -139,9 +137,6 @@ set expandtab
 
 " autoindent new line
 set autoindent
-
-" Show the filename in the window titlebar
-set title
 
 " set the max textwidth
 set textwidth=80
