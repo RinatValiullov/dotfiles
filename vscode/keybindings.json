@@ -1,0 +1,103 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+alt+s",
+    "command": "HookyQR.beautifyFile"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "shellLauncher.launch"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.quickOpenTerm"
+  },
+  {
+    "key": "shift+alt+m",
+    "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "extension.openInDefaultBrowser"
+  },
+  {
+    "key": "alt+b",
+    "command": "-extension.openInDefaultBrowser"
+  },
+  {
+    "key": "shift+alt+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "-workbench.action.toggleDevTools",
+    "when": "isDevelopment"
+  },
+  {
+    "key": "alt+\\",
+    "command": "workbench.action.reloadWindow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.reloadWindow",
+    "when": "isDevelopment"
+  },
+  {
+    "key": "alt+d",
+    "command": "editor.action.deleteLines",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+d",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "editor.action.indentationToSpaces"
+  },
+  {
+    "key": "ctrl+k ctrl+h",
+    "command": "editor.action.transformToTitlecase"
+  },
+  {
+    "key": "shift+alt+g",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "shift+alt+t",
+    "command": "editor.action.indentationToTabs"
+  },
+  {
+    "key": "shift+alt+s i",
+    "command": "editor.action.indentUsingSpaces"
+  },
+  {
+    "key": "shift+alt+t i",
+    "command": "editor.action.indentUsingTabs"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "ctrl+shift+up p",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "ctrl+l ctrl+l",
+    "command": "deleteAllLeft",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]
